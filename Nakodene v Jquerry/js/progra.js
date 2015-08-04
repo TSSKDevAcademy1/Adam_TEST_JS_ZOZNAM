@@ -2,9 +2,9 @@ var Words = Array();
 var pocet;
 window.onload=function(){//zbehne na zacatku
 
-	$( "#texBox" ).append( "<input type=\"text\" placeholder=\"TODO\" style=\"font-size: 2em\">" );
-	$( "#addButton" ).append( "<button type=\"button\" class=\"btn btn-success\">Add</button>");
-	$( "#addButton" ).append( "<button type=\"button\" class=\"btn btn-danger\">Clear</button>");
+    $( "#texBox" ).append( "<input type=\"text\" placeholder=\"TODO\" style=\"font-size: 2em\">" );
+    $( "#addButton" ).append( "<button type=\"button\" class=\"btn btn-success\">Add</button>");
+    $( "#addButton" ).append( "<button type=\"button\" class=\"btn btn-danger\">Clear</button>");
     $(":button").css({'margin': '1em', 'width':'6em'});//lne specificky
     $( "#deleteDone" ).append( "<button type=\"button\" class=\"btn btn-danger\">Delete Done</button>");
 
