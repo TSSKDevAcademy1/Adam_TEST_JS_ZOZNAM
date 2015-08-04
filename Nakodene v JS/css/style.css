@@ -1,0 +1,27 @@
+body {
+ 
+  min-width:50%;  
+  background-image: url("let.jpg");
+  background-attachment: fixed;
+  background-position: center; 
+  background-repeat: no-repeat;
+
+}
+
+.nadpis{
+  font-family: Indie Flower;
+  font-size: 8em;
+
+}
+
+.list{
+  font-family: Indie Flower;
+  font-size: 3em;
+
+}
+
+.foots{
+  font-family: Indie Flower;
+  font-size: 2em;
+
+}
